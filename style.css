@@ -81,6 +81,7 @@ footer {
   padding: 40px;
   background-color: #222930;
   color: rgb(231, 231, 231);
+  word-break: break-all;
 }
 
 .footer-left {
@@ -112,6 +113,9 @@ footer address a {
   .nav-links {
     width: 50%;
   }
+  #aboutme-img {
+    top: 70px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -120,6 +124,9 @@ footer address a {
   }
   .social_links {
     display: block;
+  }
+  #aboutme-img {
+    top: 50px;
   }
   nav {
     justify-content: space-between;
@@ -155,7 +162,7 @@ footer address a {
   }
 
   .main-container {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
   }
