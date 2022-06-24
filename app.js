@@ -17,21 +17,21 @@ function showMenu() {
 }
 
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () { myFunction() };
+// // When the user scrolls the page, execute myFunction
+// window.onscroll = function () { myFunction() };
 
-// Get the navbar
-let navbar = document.querySelector('nav');
-let mainContainer = document.querySelector('.main-container');
+// // Get the navbar
+// let navbar = document.querySelector('nav');
+// let mainContainer = document.querySelector('.main-container');
 
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-    if (window.pageYOffset >= 8) {
-        navbar.classList.add('sticky')
-        mainContainer.classList.add('container-with-sticky')
-    } else {
-        navbar.classList.remove('sticky');
-        mainContainer.classList.remove('container-with-sticky');
-    }
-}
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//     if (window.pageYOffset >= 8) {
+//         navbar.classList.add('sticky')
+//         mainContainer.classList.add('container-with-sticky')
+//     } else {
+//         navbar.classList.remove('sticky');
+//         mainContainer.classList.remove('container-with-sticky');
+//     }
+// }
