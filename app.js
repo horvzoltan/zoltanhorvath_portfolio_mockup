@@ -3,8 +3,10 @@ burger.addEventListener('click', showMenu);
 function showMenu() {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
+    const mainContainer = document.querySelector('.main-container');
 
-    nav.classList.toggle('nav-active')
+    nav.classList.toggle('nav-active');
+    mainContainer.classList.toggle('width50');
 
     navLinks.forEach((link, index) => {
         if (link.style.animation) {
@@ -13,6 +15,7 @@ function showMenu() {
             link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.1}s`;
         }
     });
+
     burger.classList.toggle('toggle');
 }
 
@@ -22,8 +25,7 @@ function showMenu() {
 
 // // Get the navbar
 // let navbar = document.querySelector('nav');
-// let mainContainer = document.querySelector('.main-container');
-
+// let 
 
 // // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 // function myFunction() {
